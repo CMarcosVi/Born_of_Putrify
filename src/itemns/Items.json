@@ -1,0 +1,79 @@
+{
+  "aspirina": {
+    "nome": "Aspirina",
+    "cura": 2
+  },
+  "barraCereal": {
+    "nome": "Barra de cereal",
+    "cura": 1
+  },
+  "curativo": {
+    "nome": "Curativo",
+    "cura": 5
+  },
+  "arma": {
+    "nome": "Colt 1911",
+    "dano": 5,
+    "munição": 8,
+    "habilidade": {
+      "habilidadeNata": "Atordoamento",
+      "descricao": "atordoa o monstro atingido"
+    }
+  },
+  "cartuchoDeBala": {
+    "nome": "Cartucho de bala",
+    "munição": 8
+  },
+  "Adrenalina": {
+    "nome": "Adrenalina",
+    "danoAdicional": 50,
+    "rodadas": 5,
+    "descricao": "Te deixa em estado de frenezi aumentando seu dano em 50 pontos durante 5 rodadas"
+  },
+  "liquidoCarmesin": {
+    "nome": "Liquido carmesin",
+    "Cura": -50,
+    "efeito": {
+      "efeito": "invunerabilidade",
+      "descricao": "voce fica invuneravel por 2 ataques",
+      "consequencia": "por ser toxico retira 50 pontos de vida"
+    }
+  },
+  "liquidoPreto": {
+    "nome": "Liquido viscoso preto",
+    "efeito": {
+      "efeito": "dano na alma",
+      "descricao": "30% do dano infrigido sera reenfringido como dano adicional",
+      "consequencia": "consome 40 pontos de sanidade"
+    },
+    "liquidoVerdeAmarelado": {
+      "nome": "Liquido verme Amarelado",
+      "dano": -30,
+      "efeito": {
+        "efeito": "Diminui chance de ser acertado",
+        "descricao": "ira aumentar a sua chance de esquivar em 50%",
+        "consequencia": "seu dano diminui em 30pontos"
+      }
+    },
+    "liquidoRoxo": {
+      "nome": "liquido Roxo aquoso",
+      "vida": -50,
+      "dano": -20,
+      "efeito": {
+        "efeito": "espelho",
+        "descricao": "50% do dano recebido sera anulado e 25% do dano sera refletido",
+        "consequencia": "é extremamente toxico retira 50 potnos de vida e 20 de dano"
+      }
+    },
+    "liquidoCinza": {
+      "nome": "Liquido acinzentado",
+      "vida": 150,
+      "dano": -100,
+      "efeito": {
+        "efeito": "juggernaut",
+        "descrição": "90% do dano sera absorvido sua vida sera regenerada em 150 pontos",
+        "consequencia": "aumenta sua chance de ser acertado em 50% e diminui seu dano em 100pontos"
+      }
+    }
+  }
+}
